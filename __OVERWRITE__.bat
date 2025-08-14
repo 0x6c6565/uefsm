@@ -1,5 +1,11 @@
 @echo off
 
+if "%~1%"=="" (
+echo Please drop the folder to copy onto the batch file to start!
+pause
+exit /b 99
+)
+
 echo Updating repository from %1
 
 set pluginFileName=%~1%\UEFSM.uplugin
@@ -24,6 +30,8 @@ echo copying "%sourceFolderName%" to "%~dp0%"
 xcopy "%sourceFolderName%" "%~dp0%\Source\" /E /Y /H /I
 ) else (
 echo Could not find "%sourceFolderName%" in directory!
+pause
+exit /b 2
 )
 echo(
 
@@ -33,6 +41,8 @@ echo copying "%resourcesFolderName%" to "%~dp0%"
 xcopy "%resourcesFolderName%" "%~dp0%\Resources\" /E /Y /H /I
 ) else (
 echo Could not file "%resourcesFolderName%" in directory!
+pause
+exit /b 3
 )
 echo(
 

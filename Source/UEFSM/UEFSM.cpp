@@ -1,4 +1,6 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright (c) 2024 lee wood
+//
+// This file is licensed under the MIT License.
 
 #include "UEFSM.h"
 
