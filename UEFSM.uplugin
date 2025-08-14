@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UEFSM",
+	"Description": "Hierarchical Finite State Machine",
+	"Category": "Other",
+	"CreatedBy": "lee wood",
+	"CreatedByURL": "https://github.com/0x6c6565",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UEFSM",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
