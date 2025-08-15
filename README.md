@@ -10,6 +10,8 @@ Quick start
 
 
 Information
+
+
 The provided component classes not required to use the tool. 
 If building from scratch, first ensure the IUEFiniteStateMachine interface is implemented by the desired UObject.
 Then, implement the IUEFiniteStateInterface for each UObject that will function as a state.
