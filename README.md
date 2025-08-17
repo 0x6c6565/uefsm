@@ -17,3 +17,10 @@ If building from scratch, first ensure the IUEFiniteStateMachine interface is im
 Then, implement the IUEFiniteStateInterface for each UObject that will function as a state.
 States can be added to the FSM using the interface functionality.
 Runtime logic must call the appropriate state logic (e.g. Enter(), [First]Execute(), Exit().)
+
+
+ToDo
+
+
+1. Switch map keys from UObject to TObjectKey
+
